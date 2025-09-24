@@ -1,5 +1,7 @@
 import Footer from "./components/Footer";
+import HominidTimelineGlobe from "./components/HominidTimelineGlobe";
 import Navbar from "./components/Navbar";
+import SharingEconomyNetwork from "./components/SharingEconomyNetwork";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
           Conoce más
         </button>
       </section>
+      <HominidTimelineGlobe />
+      <SharingEconomyNetwork />
 
       {/* Contenido principal */}
       <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8">
