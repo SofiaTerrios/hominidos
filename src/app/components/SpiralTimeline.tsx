@@ -107,7 +107,7 @@ export default function SpiralTimeline({
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 flex flex-col overflow-hidden relative">
+    <div className="min-h-screen bg-[#F8F5F1] to-yellow-50 flex flex-col overflow-hidden relative">
       {/* Botón de regreso */}
       {onBack && (
         <motion.button

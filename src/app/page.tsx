@@ -10,16 +10,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 text-center bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
-        <h1 className="text-5xl font-bold mb-6">Bienvenido a Hominidos</h1>
-        <p className="text-lg max-w-2xl mx-auto">
-          Una comunidad dedicada a explorar, crear y compartir proyectos
-          increíbles.
-        </p>
-        <button className="mt-8 px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-200">
-          Conoce más
-        </button>
-      </section>
+
       <InteractiveGlobe />
 
       {/* Contenido principal */}
